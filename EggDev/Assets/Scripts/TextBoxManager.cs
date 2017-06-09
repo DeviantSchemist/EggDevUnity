@@ -46,6 +46,12 @@ public class TextBoxManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Debug.Log("Current line: " + currentLine);
+
+        if (cancelTyping)
+        {
+            Debug.Log("Cancelled typing.");
+        }
 
         if (!isActive)
         {
@@ -71,7 +77,8 @@ public class TextBoxManager : MonoBehaviour
             if (!isTyping)
             {
                 currentLine++;
-
+                StartCoroutine(TextScroll(textLines[currentLine]));
+                /*
                 if (currentLine > endLine)
                 {
                     DisableTextBox();
@@ -80,12 +87,37 @@ public class TextBoxManager : MonoBehaviour
                 {
                     StartCoroutine(TextScroll(textLines[currentLine]));
                 }
+                */
             }
             else if (isTyping && !cancelTyping)
             {
                 cancelTyping = true;
             }
 
+        }
+
+        if (Input.GetKeyDown(KeyCode.Backspace) && currentLine > 0)
+        {
+            if (!isTyping)
+            {
+                currentLine--;
+                StartCoroutine(TextScroll(textLines[currentLine]));
+
+                /*
+                if (currentLine > endLine)
+                {
+                    DisableTextBox();
+                }
+                else
+                {
+                    StartCoroutine(TextScroll(textLines[currentLine]));
+                }
+                */
+            }
+            else if (isTyping && !cancelTyping)
+            {
+                cancelTyping = true;
+            }
         }
 
         /*
