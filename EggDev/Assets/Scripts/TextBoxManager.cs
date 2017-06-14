@@ -136,21 +136,30 @@ public class TextBoxManager : MonoBehaviour
     }
 
     // controls a line of text scrolling on the text box
-    private IEnumerator TextScroll (string lineOfText)
+    private IEnumerator TextScroll(string lineOfText)
     {
         int letter = 0;
         theText.text = "";
         isTyping = true;
         cancelTyping = false;
 
-        while (isTyping && !cancelTyping && letter < lineOfText.Length - 1)
+        while (isTyping && !cancelTyping && letter < lineOfText.Length - 1 && theText.text.Length <= 126)
         {
             theText.text += lineOfText[letter];
             letter++;
             yield return new WaitForSeconds(typeSpeed);
         }
 
-        theText.text = lineOfText;
+
+        if (theText.text.Length <= 126 && lineOfText.Length <= 126)
+        {
+            theText.text = lineOfText;
+        }
+        else if (theText.text.Length <= 126 && lineOfText.Length > 126)
+        {
+            theText.text = lineOfText.Substring(0, 127);
+        }
+
         isTyping = false;
         cancelTyping = false;
     }
