@@ -4,6 +4,7 @@ using System;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using UnityEngine.EventSystems;
 
 public class ButtonManager : MonoBehaviour {
 
@@ -39,8 +40,9 @@ public class ButtonManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
-	}
+        SceneManager.LoadScene(EventSystem.current.currentSelectedGameObject.name);
+
+    }
 
     void Button1()
     {
