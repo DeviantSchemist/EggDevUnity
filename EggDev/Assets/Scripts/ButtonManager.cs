@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class ButtonManager : MonoBehaviour {
 
@@ -40,4 +41,9 @@ public class ButtonManager : MonoBehaviour {
 	void Update () {
 		
 	}
+
+    void Button1()
+    {
+        SceneManager.LoadScene("DialogueScene_Chapter0Choice1");
+    }
 }
