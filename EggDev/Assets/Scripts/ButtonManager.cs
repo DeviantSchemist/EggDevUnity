@@ -35,12 +35,16 @@ public class ButtonManager : MonoBehaviour {
         */
         //END OF DEBUGGING STATEMENTS
 
-
+        // trying to add listener for every button
+        for (int i = 0; i < buttons.Length; i++)
+        {
+            buttons[i].onClick.AddListener(() => );
+        }
     }
 	
 	// Update is called once per frame
 	void Update () {
-        SceneManager.LoadScene(EventSystem.current.currentSelectedGameObject.name);
+        //SceneManager.LoadScene(EventSystem.current.currentSelectedGameObject.name);
 
     }
 
