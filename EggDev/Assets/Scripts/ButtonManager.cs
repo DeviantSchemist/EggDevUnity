@@ -38,7 +38,7 @@ public class ButtonManager : MonoBehaviour {
         // trying to add listener for every button
         for (int i = 0; i < buttons.Length; i++)
         {
-            buttons[i].onClick.AddListener(() => );
+            buttons[i].onClick.AddListener(() => ButtonLoad(i));
         }
     }
 	
@@ -48,8 +48,8 @@ public class ButtonManager : MonoBehaviour {
 
     }
 
-    void Button1()
+    void ButtonLoad(int index)
     {
-        SceneManager.LoadScene("DialogueScene_Chapter0Choice1");
+        SceneManager.LoadScene("DialogueScene_Chapter0Choice" + (index + 1));
     }
 }
