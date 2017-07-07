@@ -1,0 +1,27 @@
+Manager: *roll inside* they see me rollin they eggin. Everyone except for Esther and Carter is there, Carter in the back taking inventory, Esther is late.
+*I recognize Gale of the three, but the other two people I don’t know.*
+Manager enter
+[neutral] Manager: “These are your coworkers! Most of them know what they’re doing, so if you need help, just go to them, not me.”
+“Gale will teach you how to run the cash register. Beckett will show you how to greet and serve customers, and Eduardo will show you how to clean around here. Carter is in the back and he’ll show you how to cook. If I remember correctly though, you’re garbage at cooking, so just nod and pretend you’re interested.”
+[happy] Manager: “Say hello everyone!”
+Gale enter, manager leave
+Gale: “Hey, (Protegg), it’s been so long! I haven’t seen you since you moved out of town.”
+Eduardo enter, gale leave
+Eduardo: “GOOD MORNING, BOSS! IS THIS THE NEW RECRUIT?
+Eduardo leave, manager enter
+*...*
+[happy] Manager: “Say hello, EVERYONE! Or you’re fired!”
+*I hear a disgruntled shout from the back of the cafe. It’s probably Gale’s brother.*
+Manager leave, beckett enter 
+Beckett: “Hi, I’m Beckett. Welcome to [Restaurant Name].”
+Beckett leave
+There’s a knock at the entrance. A girl is standing outside, pointing at the lock*
+Manager enter
+“And that’s Esther. She can teach you how to wash dishes or something. I’ll go let her in, and Gale, can you help (pronoun) out first? The rest of us are going to have a quick meeting.”
+Manager leave
+GALINT (Gale) INTRO CHI LEGGO WRITE SOME SHIT ANY SHIT STOP LOOKING AT GAYTRAPS WE HERE 
+Gale enter:
+[happy] Gale: “I’m so glad my dad decided to hire you. I’ve been nudging him to give you the position since we had an open spot.” 
+“Now it’s just like the old days, me and you hanging out together. I’ve been dying to see you again.”
+“I know it’s hard to start working, but once you get used to the process it’s pretty easy.”
+[neutral] “Well, this is the cash register. It hasn't changed much since we were kids. Do you remember when we played with this and my dad got so mad at us?”

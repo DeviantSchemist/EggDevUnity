@@ -1,0 +1,5 @@
+[happy] Manager: “Hey (protegg), glad you could make it! Not that you had a choice, since you signed that summer contract and all…” 
+[neutral] Manager: “Anyways, do you have any questions? I know you kind of get how the cafe works, but I don’t think you’ve personally met some of the current employees. Also, the previous employee you’re replacing was kind of new, so your duties aren’t too difficult.”
+INSERT FIRST DIALOGUE CHOICE HERE
+[happy] Manager: “Anyways, everyone’s already inside, so I’ll introduce you. Also, if you ever need to unlock anything, just ask Carter. He has an extra key. Don’t forget, we’re usually closed on Mondays, and you work on Wednesdays, Thursdays, and Sundays. Here, let me get the door.”
+*We go inside, and I see a mix of familiar and unfamiliar faces sitting around one of the tables.*
