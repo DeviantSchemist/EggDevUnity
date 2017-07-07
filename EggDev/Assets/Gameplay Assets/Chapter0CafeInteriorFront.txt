@@ -1,0 +1,71 @@
+Manager: *roll inside* they see me rollin they eggin. Everyone except for Esther and Carter is there, Carter in the back taking inventory, Esther is late.
+*I recognize Gale of the three, but the other two people I don’t know.*
+Manager enter
+[neutral] Manager: “These are your coworkers! Most of them know what they’re doing, so if you need help, just go to them, not me.”
+“Gale will teach you how to run the cash register. Beckett will show you how to greet and serve customers, and Eduardo will show you how to clean around here. Carter is in the back and he’ll show you how to cook. If I remember correctly though, you’re garbage at cooking, so just nod and pretend you’re interested.”
+[happy] Manager: “Say hello everyone!”
+Gale enter, manager leave
+Gale: “Hey, (Protegg), it’s been so long! I haven’t seen you since you moved out of town.”
+Eduardo enter, gale leave
+Eduardo: “GOOD MORNING, BOSS! IS THIS THE NEW RECRUIT?
+Eduardo leave, manager enter
+*...*
+[happy] Manager: “Say hello, EVERYONE! Or you’re fired!”
+*I hear a disgruntled shout from the back of the cafe. It’s probably Gale’s brother.*
+Manager leave, beckett enter 
+Beckett: “Hi, I’m Beckett. Welcome to [Restaurant Name].”
+Beckett leave
+There’s a knock at the entrance. A girl is standing outside, pointing at the lock*
+Manager enter
+“And that’s Esther. She can teach you how to wash dishes or something. I’ll go let her in, and Gale, can you help (pronoun) out first? The rest of us are going to have a quick meeting.”
+Manager leave
+GALINT (Gale) INTRO CHI LEGGO WRITE SOME SHIT ANY SHIT STOP LOOKING AT GAYTRAPS WE HERE 
+Gale enter:
+[happy] Gale: “I’m so glad my dad decided to hire you. I’ve been nudging him to give you the position since we had an open spot.” 
+“Now it’s just like the old days, me and you hanging out together. I’ve been dying to see you again.”
+“I know it’s hard to start working, but once you get used to the process it’s pretty easy.”
+[neutral] “Well, this is the cash register. It hasn't changed much since we were kids. Do you remember when we played with this and my dad got so mad at us?”
+INSERT SECOND CHOICE HERE
+[neutral] “You flipped the whole cash register off the counter. It’s a miracle that nothing broke.” 
+“But after that incident we still used this machine, and she still works like a charm.”
+“You just have to input the price like this, and press this for cash and credit. There’s a list of instructions on the side in case you forget what the buttons do.”
+“That’s all I can teach you. If you have any questions, don’t hesitate to ask me.” 
+“Hey, you don’t have a shift tomorrow, right? We should hang out and catch up. I’ll text you the details later.”
+“You should go see Beckett. ”  
+BECINT (Beckett) INTRO
+Gale leave, beckett enter
+[neutral] Beckett: “Hey. So when you're up here it's important to make sure the people that walk in feel welcomed. Before seating them, just greet the customer with something like,
+"Welcome to 399 Lane" or…”
+INSERT THIRD CHOICE HERE
+[neutral] Beckett: “ … Afterwards, just show them to their table and give them the menu. If you're waiting tables, just keep that same friendly attitude and make sure you write legibly for the cooks. You'll understand what I mean when you're back here in the kitchen.”
+[offscreen] Eduardo: YO!! IS IT MY TURN?? 
+[angry] Beckett: *groan*
+Beckett leaves
+EDUINT (Eduardo) INTRO
+Eduardo enter
+[happy] Eduardo: “HELLO FRIEND! WELCOME TO 399 LANE.”
+*He goes suddenly from boisterous to the tone of a well-mannered butler.*
+“I am Eduardo. I shall instruct you on cleanliness and how to ensure our guests leave with a smile on their faces. Now, let us begin.”
+INSERT FOURTH CHOICE HERE
+[neutral] “But first! Let me show you all the tasks you will be working on.” 
+“Observe this magnifique table.”
+“The customer must receive the most pristine of spaces. NO LINT OR DUST. They must be able to see their own beautiful reflection on the table.”
+*His next words are strict and loud, like a drill sergeant’s.*
+[angry]“When you pick up food from the kitchen, DON’T SPILL AND DON’T DIP YOUR FINGER IN THE FOOD. SANITATION ALWAYS COMES FIRST.” 
+[happy] “LASTLY, SERVICE WITH A SMILE. NOW MARCH! YOU HAVE A LOT TO LEARN, SOLDIER!”
+Eduardo leave
+ESTINT (Esther) INTRO
+Esther enters
+[happy] Esther: Hahaha! Oh man, I see you just got back from talking with that weirdo. Funny dude. Oh, the name’s Esther by the way. 
+*The next worker I meet is the only female here. She’s also much smaller than everyone else.*
+[annoyed] Esther: So, yeah, not gonna lie, having to come here on one of my days off is really annoying. We’re gonna see each other eventually, so I don’t know what that old manager’s thinking having us meet you today. But hey, whatever. 
+[happy] It’s not everyday I get to hear that weirdo ramble off. Free entertainment right? Haha. 
+[neutral] Anyways, let’s get this over with already so I can get back to playing Yolkemon.
+INSERT FIFTH CHOICE HERE
+[neutral] So yeah, honestly there’s not really much for me to teach you. Over there is the dishwasher. It...you know...washes dishes. Just use the regular setting. After that, hand dry them and put them on the rack next to the machine. Easy, right? 
+[happy] Not to brag but the dishwasher is my specialty. 
+[neutral] Anyways, if you don’t rub me the wrong way we’ll get along fine. You probably haven’t talked to the guy in the kitchen huh? Just waltz right in. He’s probably too nervous to say hi. Welp, guess I’ll be catching ya around, newbie. Oh, and yeah, Beckett is pretty cool! Better be nice to him too!
+SCENE CHANGE TO CAFE INTERIOR BACK
+Manager enters
+[neutral] Manager: “Hey, did you get to meet everyone? I think you get the gist of things, right? Once you have your first day on the job, things will make more sense. Just make sure you get along with everyone, and they’ll help you out. Esther keeps trying to sneak out, so I think I'll just let you go now.”
+[happy] Manager: “I know they didn't really teach you much, but experience really is the best instructor. I'll see you on Wednesday, try not to chicken out!”

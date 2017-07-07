@@ -1,0 +1,10 @@
+Carter enter
+Carter: “...”
+*Carter’s just looking through the shelves and writing notes on a piece of paper. I wonder if he even remembers me.*
+*I reach for a mug. Without even turning around, he smacks my hand away.*
+[neutral] Carter: “Oh, no you don’t. I remember the time you almost burned my house down making cereal. I won’t cut you any slack just because my brother likes you. Did you take this job just so you two could hang out even more than you used to?”
+INSERT DIALOGUE CHOICE HERE
+[neutral] Carter: “Besides, that’s not really important. I’m taking inventory right now, since my old man is too lazy to do it. And since you’re a terrible cook, you aren’t ever going to be in the back for long, so don’t even bother.”
+[annoyed] Carter: “In fact, there’s nothing I can teach you right now! Just figure things out on your first day, it’s how I learned! Now leave me alone, I have actual work to do. And try not to make things more difficult for me, I have enough things to worry about as it is.”
+*I hear the manager calling for me from the front of the store, and go see what he’s yelling about.*
+SCENE CHANGE TO CAFE INTERIOR FRONT
