@@ -50,6 +50,7 @@ public class ButtonManager : MonoBehaviour {
 
     void ButtonLoad(int index)
     {
+        Debug.Log("Button pressed!");
         SceneManager.LoadScene("DialogueScene_Chapter0Choice" + (index + 1));
     }
 }
