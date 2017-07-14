@@ -143,7 +143,7 @@ public class TextBoxManager : MonoBehaviour
         isTyping = true;
         cancelTyping = false;
 
-        while (isTyping && !cancelTyping && letter < lineOfText.Length - 1 && theText.text.Length <= 126)
+        while (isTyping && !cancelTyping && letter < lineOfText.Length - 1  /*&& theText.text.Length <= 126 */)
         {
             theText.text += lineOfText[letter];
             letter++;
