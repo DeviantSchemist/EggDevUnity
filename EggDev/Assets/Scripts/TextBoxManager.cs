@@ -150,7 +150,7 @@ public class TextBoxManager : MonoBehaviour
             yield return new WaitForSeconds(typeSpeed);
         }
 
-
+        /*
         if (theText.text.Length <= 126 && lineOfText.Length <= 126)
         {
             theText.text = lineOfText;
@@ -159,6 +159,7 @@ public class TextBoxManager : MonoBehaviour
         {
             theText.text = lineOfText.Substring(0, 127);
         }
+        */
 
         isTyping = false;
         cancelTyping = false;
